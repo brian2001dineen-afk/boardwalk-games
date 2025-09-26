@@ -15,33 +15,54 @@ body {
     font-family: var(--primary-font);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
 }
 
-.sub-heading-color{
+h1,
+h2 {
+    text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
+}
+
+.sub-heading-color {
     color: var(--highlight-color);
 }
 
-.section{
+.section {
     margin: 2rem;
 }
 
 /* Navbar */
 
-#navbar{
-   background-color: var(--primary-color); 
+#navbar {
+    background-color: var(--primary-color);
 }
 
-#navbar .logo{
+#navbar .logo {
     width: 30px;
 }
 
 /* Header */
-#header .lead{
+#header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card{
+    margin-bottom: 1.5rem;
 }
 
 /* grid vis css for testing */
