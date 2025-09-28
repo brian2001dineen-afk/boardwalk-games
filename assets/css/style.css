@@ -38,6 +38,31 @@ h2 {
     margin: 2rem;
 }
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Navbar */
 
 #navbar {
@@ -61,48 +86,49 @@ h2 {
     background-color: transparent;
 }
 
-#services .card{
+#services .card {
     margin-bottom: 1.5rem;
 }
 
 /* Games */
 
-#new-games .card, #fav-games .card{
+#new-games .card,
+#fav-games .card {
     border: none;
 }
 
 /* Footer / Contact */
-#contact{
+#contact {
     background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
 }
 
-#contact h2{
+#contact h2 {
     color: white;
 }
 
-#contact .sub-heading-color{
+#contact .sub-heading-color {
     color: var(--highlight-color-light);
 }
 
-#contact i{
+#contact i {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
 
-#contact .social-links i{
+#contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 
-#contact .social-links i:hover{
+#contact .social-links i:hover {
     color: var(--secondary-color);
 }
 
-#contact .table-dark *{
+#contact .table-dark * {
     background-color: transparent;
 }
 
@@ -121,31 +147,31 @@ h2 {
 /* Medium screens and up */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
-    #services .card-body{
-       min-height: 191px; 
+    #services .card-body {
+        min-height: 191px;
     }
 }
 
 /* Large screens and up */
 @media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency */
-    #services .card-body{
-       min-height: auto; 
+    #services .card-body {
+        min-height: auto;
     }
 }
 
 /* XLarge screens and up */
 @media screen and (min-width: 1200px) {
     /* Make all service cards the same height for consistency */
-    #services .card-body{
-       min-height: 220px; 
+    #services .card-body {
+        min-height: 220px;
     }
 }
 
 /* XXLarge screens and up */
 @media screen and (min-width: 1400px) {
     /* Make all service cards the same height for consistency */
-    #services .card-body{
-       min-height: 195px; 
+    #services .card-body {
+        min-height: 195px;
     }
 }
