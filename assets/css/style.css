@@ -90,6 +90,27 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+
+.student-discount{
+    background-color: var(--highlight-color);
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    max-width: 300px;
+}
+
 /* Games */
 
 #new-games .card,
@@ -143,6 +164,17 @@ h2 {
 } */
 
 /* Media queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
 
 /* Medium screens and up */
 @media screen and (min-width: 768px) {
